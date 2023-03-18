@@ -5,6 +5,20 @@ fun main(){
     max(10,2);
     isHoliday("수")
     isHoliday("토")
+    for(i in 1..10 step(2)){
+        print(i)
+        print(".")
+    }
+    println()
+    for(i in IntRange(1,10)) {
+        print(i)
+        print('.')
+    }
+    println()
+    for (i in 1 until 11){
+        print(i)
+        print('.')
+    }
 }
 
 //fun max(a:Int, b:Int){
@@ -29,6 +43,8 @@ fun isHoliday(dayOfWeek:String){
         else->"안좋아"
     }
     println(result)
+
+
 }
 
 
